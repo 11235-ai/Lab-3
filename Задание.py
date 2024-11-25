@@ -22,7 +22,6 @@ def animate_label():
     window.after(500, animate_label)
 
 
-    
 def generate_key():
 
     hex_input = entry_hex.get().strip().upper()
@@ -100,4 +99,5 @@ pygame.mixer.music.play(-1)
 
 
 animate_label()
+
 window.mainloop()
