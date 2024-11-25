@@ -1,4 +1,4 @@
-def sqr_eq(A, B, C):
+def sqrEquation(A, B, C):
     if A == 0:
         text = f'Division by zero!'
     else:
